@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+li{
+    color: antiquewhite;
+    font-size: large;
+    padding: 20px;   /*0 Nulo*/
+ }
+ a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.wave-color{
+    background-color: aqua;
+}
+.center-title{
+    text-align: center;
+     
+}
+.menu-color{
+    height: 60px;  /*0 Nulo*/
+    background-color: antiquewhite;
+}
+.img-Doggo-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.img-terra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.a-terra-title{
+       text-align: center;
+}
+.text-doggo-center{
+    text-align: center;
+}
+.doggo-na-escola-title{
+    background-color: bisque;
+}
+.doggo-na-escola-text{
+    text-align: center;
+
+}
+.doggo-na-escola-img{
+    text-align: center;
+    
+
+}
+.container{
+    display: flex;
+    gap: 30px;            /*80px*/
+    margin-top: 40px;     /*60px*/
+}
+.container-2{
+    display: flex;
+    gap: 30px;             /*80px*/
+    margin-top: 40px;     /*60px*/
+}
+.final-escola{
+    text-align: center;
+}
+.title-praia{
+    text-align: center;
+}
+.inicio-img{
+/*background:linear-gradient(to right, #43c6ac,#120d75);*/
+background: url('1000_F_248539305_zejf9MzK6tzIFMaADRY63Xp6iyApH4f6.jpg');
+}
+.legenda-praia{
+    text-align: center;
+}
+
+.img-praia{
+    margin-top: -70px;
+    }
+
+.sub-img-praia{
+    margin-top:50px;
+    
+}
+
+.praia{
+    display: inline;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.title-praia{
+    background-color: bisque;
+}
+.audio-center{
+    text-align: center;
+}
+.de-volta-casa{
+    text-align: center;
+    background-color: bisque;
+}
+.de-volta-casa-text{
+    text-align: center;
+}
+
+/*---------------------------------------------------------*/
+.inicio-img .praia {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate; 
+    /*animation: flutuar 2s ease-in-out infinite alternate;*/
+}
+
+@keyframes flutuar{
+   0%{
+       top: 0; 
+   }
+   100%{
+       top: 30px; /*30px*/
+   }
+}
+.audio{
+    text-align: center;
+}
